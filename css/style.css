@@ -28,7 +28,7 @@ ul {
   width: 145px;
   height: 31px;
   left: 215px;
-  margin: 24px;
+  top: 24px;
 
   font-family: Raleway;
   font-style: normal;
@@ -45,18 +45,13 @@ ul {
 }
 
 .top-link {
-  position: absolute;
-  width: 294px;
-  height: 16px;
-  left: 453px;
-  margin: 32px;
 }
 .link1 {
+  position: absolute;
   width: 49px;
   height: 16px;
   left: 453px;
-  margin: 32px;
-  margin-left: 50px;
+  top: 32px;
 
   font-family: Roboto;
   font-style: normal;
@@ -72,7 +67,7 @@ ul {
   width: 77px;
   height: 16px;
   left: 552px;
-  margin: 32;
+  top: 32px;
 
   font-family: Roboto;
   font-style: normal;
@@ -84,11 +79,11 @@ ul {
   color: #212121;
 }
 .link3 {
+  position: absolute;
   width: 68px;
   height: 16px;
   left: 679px;
-  margin: 32px;
-  margin-right: 853px;
+  top: 32px;
 
   font-family: Roboto;
   font-style: normal;
@@ -104,19 +99,18 @@ ul {
   width: 135px;
   height: 16px;
   left: 1078px;
-  margin: 32px;
-  margin-left: 1078px;
+  top: 32px;
+
   font-size: 14px;
   color: #757575;
   text-decoration: none;
 }
 .tel-link {
   position: absolute;
-  width: 294px;
+  width: 122px;
   height: 16px;
-  left: 453px;
+  left: 1263px;
   top: 32px;
-  margin-left: 50px;
 
   font-family: Roboto;
   font-style: normal;
@@ -148,6 +142,10 @@ ul {
   background: #2f303a;
 }
 .text {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  margin: 200px 452px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -161,6 +159,11 @@ ul {
 }
 
 .button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -174,42 +177,24 @@ ul {
 }
 /*peculiarities-seсtion*/
 .section-peculiarities {
+  position: absolute;
   width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.block-section-peculiaties-1 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 94px;
 }
 .title-peculiarities-1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-.title-peculiarities-2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-.title-peculiarities-3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-.title-peculiarities-4 {
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -229,6 +214,73 @@ ul {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+.block-section-peculiaties-2 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 94px;
+}
+.title-peculiarities-2 {
+  width: 270px;
+  height: 16px;
+  left: 515px;
+  top: 774px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.block-section-peculiaties-3 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 815px;
+  top: 94px;
+}
+
+.title-peculiarities-3 {
+  width: 270px;
+  height: 16px;
+  left: 815px;
+  top: 774px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.block-section-peculiaties-4 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 94px;
+}
+.title-peculiarities-4 {
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 774px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
 }
 .text-peculiarities-2 {
   font-family: Roboto;
@@ -262,7 +314,11 @@ ul {
 }
 /*what are we doing*/
 .what-are-we-doing {
+  position: absolute;
   width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
 }
 .title-what-are-we-doing {
   font-family: Roboto;
@@ -284,7 +340,11 @@ ul {
 /*our-team*/
 
 .our-team {
+  position: absolute;
   width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
   background: #f5f4fa;
 }
 .title-our-team {
@@ -333,7 +393,11 @@ ul {
 }
 /*section-footer*/
 .footer-title {
+  position: absolute;
   width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
   background-color: black;
 }
 
