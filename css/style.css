@@ -1,3 +1,10 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -5,9 +12,11 @@
 }
 body {
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 ul {
   list-style: none;
+  padding: 0px;
 }
 .list {
   list-style: none;
@@ -15,21 +24,18 @@ ul {
 
 /*Top line*/
 .top-line {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
 }
-
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 215px;
+}
 .top-line-link {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -45,14 +51,17 @@ ul {
 }
 
 .top-link {
+  display: flex;
+  margin: 32px 0;
+  padding-left: 93px;
+}
+.link1:hover {
+  color: #2196f3;
 }
 .link1 {
-  position: absolute;
   width: 49px;
   height: 16px;
-  left: 453px;
-  top: 32px;
-
+  margin-right: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -61,14 +70,14 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
+}
+.link2:hover {
+  color: #2196f3;
 }
 .link2 {
-  position: absolute;
   width: 77px;
   height: 16px;
-  left: 552px;
-  top: 32px;
-
+  margin-right: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -77,14 +86,13 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
+}
+.link3:hover {
+  color: #2196f3;
 }
 .link3 {
-  position: absolute;
   width: 68px;
   height: 16px;
-  left: 679px;
-  top: 32px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -94,23 +102,25 @@ ul {
   text-decoration: none;
   color: #212121;
 }
+.contact {
+  display: flex;
+}
+.mail-link:hover {
+  color: #2196f3;
+}
 .mail-link {
-  position: absolute;
+  margin-left: 331px;
+  margin-right: 50px;
   width: 135px;
   height: 16px;
-  left: 1078px;
-  top: 32px;
 
   font-size: 14px;
   color: #757575;
   text-decoration: none;
 }
 .tel-link {
-  position: absolute;
   width: 122px;
   height: 16px;
-  left: 1263px;
-  top: 32px;
 
   font-family: Roboto;
   font-style: normal;
@@ -120,6 +130,9 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
+}
+.tel-link:hover {
+  color: #2196f3;
 }
 .link {
   text-decoration: none;
@@ -134,18 +147,12 @@ ul {
 /*Title-etions*/
 
 .header-title {
-  position: absolute;
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
   background: #2f303a;
 }
 .text {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  margin: 200px 452px;
+  padding: 200px 452px 0 452px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -159,11 +166,9 @@ ul {
 }
 
 .button {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+  padding: 10px 29px;
+  box-sizing: border-box;
+  margin: 30px 700px 200px 700px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -177,24 +182,13 @@ ul {
 }
 /*peculiarities-seсtion*/
 .section-peculiarities {
-  position: absolute;
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
+  display: flex;
+  padding: 94px 215px;
 }
 .block-section-peculiaties-1 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 215px;
-  top: 94px;
+  margin-right: 30px;
 }
 .title-peculiarities-1 {
-  width: 270px;
-  height: 16px;
-  left: 215px;
-  top: 774px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -216,17 +210,9 @@ ul {
   color: #757575;
 }
 .block-section-peculiaties-2 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 515px;
-  top: 94px;
+  margin-right: 30px;
 }
 .title-peculiarities-2 {
-  width: 270px;
-  height: 16px;
-  left: 515px;
-  top: 774px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -238,18 +224,10 @@ ul {
   color: #212121;
 }
 .block-section-peculiaties-3 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 815px;
-  top: 94px;
+  margin-right: 30px;
 }
 
 .title-peculiarities-3 {
-  width: 270px;
-  height: 16px;
-  left: 815px;
-  top: 774px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -261,17 +239,8 @@ ul {
   color: #212121;
 }
 .block-section-peculiaties-4 {
-  position: absolute;
-  width: 270px;
-  height: 101px;
-  left: 1115px;
-  top: 94px;
 }
 .title-peculiarities-4 {
-  width: 270px;
-  height: 101px;
-  left: 1115px;
-  top: 774px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -314,13 +283,13 @@ ul {
 }
 /*what are we doing*/
 .what-are-we-doing {
-  position: absolute;
-  width: 1170px;
-  height: 386px;
-  left: 215px;
-  top: 969px;
+  padding: 94px 215px;
+}
+.we-doing-flex {
+  display: flex;
 }
 .title-what-are-we-doing {
+  margin-left: 390px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -331,23 +300,25 @@ ul {
   color: #212121;
 }
 .img1 {
+  margin-right: 30px;
 }
 .img2 {
+  margin-right: 30px;
 }
 .img3 {
 }
 
 /*our-team*/
+.our-team-flex {
+  display: flex;
+}
 
 .our-team {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
+  padding: 94px 215px;
   background: #f5f4fa;
 }
 .title-our-team {
+  margin-left: 390px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -393,15 +364,13 @@ ul {
 }
 /*section-footer*/
 .footer-title {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
+}
+.footer {
+  padding: 60px 0;
   background-color: black;
 }
-
 .footer-text {
+  margin: 20px 0 60px 215px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -412,6 +381,7 @@ ul {
   color: #ffffff;
 }
 .footer-link {
+  margin: 60px 0 20px 215px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -442,5 +412,8 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link:hover {
+  color: #2196f3;
+}
+.footer-tel-link:hover {
   color: #2196f3;
 }
