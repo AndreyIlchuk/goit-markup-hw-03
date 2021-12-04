@@ -1,4 +1,4 @@
- :root {
+:root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #ffffff;
@@ -15,11 +15,21 @@ ul {
 
 /*Top line*/
 .top-line {
+  position: absolute;
   width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
   background: #ffffff;
 }
 
 .top-line-link {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  margin: 24px;
+
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -35,8 +45,19 @@ ul {
 }
 
 .top-link {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  margin: 32px;
 }
 .link1 {
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  margin: 32px;
+  margin-left: 50px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -47,6 +68,12 @@ ul {
   color: #212121;
 }
 .link2 {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  margin: 32;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -57,6 +84,12 @@ ul {
   color: #212121;
 }
 .link3 {
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  margin: 32px;
+  margin-right: 853px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -67,11 +100,24 @@ ul {
   color: #212121;
 }
 .mail-link {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  margin: 32px;
+  margin-left: 1078px;
   font-size: 14px;
   color: #757575;
   text-decoration: none;
 }
 .tel-link {
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  margin-left: 50px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -94,7 +140,11 @@ ul {
 /*Title-etions*/
 
 .header-title {
+  position: absolute;
   width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
   background: #2f303a;
 }
 .text {
