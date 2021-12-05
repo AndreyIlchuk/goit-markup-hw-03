@@ -11,6 +11,7 @@ ul {
 /*top-line*/
 .top-line {
   width: 1600px;
+  height: 80px;
  
   background: #ffffff;
 }
@@ -163,6 +164,10 @@ border-radius: 4px;
 .button:hover{
   background-color: #2196f3;
   color: #ffffff;
+}
+.container{
+
+  margin-bottom: 94px;
 }
 .flax-conteiner1{
   margin-top: 34px;
