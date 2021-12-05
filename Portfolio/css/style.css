@@ -265,6 +265,7 @@ color: #757575;
 /*footer*/
 
 .footer {
+  width: 1600px;
    padding: 60px 0;
   background-color: black;
 }
