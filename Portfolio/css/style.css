@@ -14,6 +14,7 @@ ul {
   height: 80px;
  
   background: #ffffff;
+   border-bottom: 1px solid #ececec;
 }
 
 .nav {
