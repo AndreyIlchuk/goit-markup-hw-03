@@ -4,6 +4,9 @@ body {
   font-family: Roboto, sans-serif;
   font-family: Roboto, sans-serif;
 }
+.container{
+  width: 1600px;
+}
 ul {
    padding: 0px;
   list-style: none;
@@ -166,7 +169,7 @@ border-radius: 4px;
   background-color: #2196f3;
   color: #ffffff;
 }
-.container{
+.portfolio-container{
 
   margin-bottom: 94px;
 }
@@ -244,6 +247,7 @@ border-radius: 4px;
   box-sizing: border-box;
 }
 .title-container{
+  margin-left: 24px;
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -253,6 +257,7 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 .name{
+  margin-left: 24px;
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
