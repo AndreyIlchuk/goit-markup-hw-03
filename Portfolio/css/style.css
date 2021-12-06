@@ -247,7 +247,7 @@ border-radius: 4px;
   box-sizing: border-box;
 }
 .title-container{
-  margin-left: 24px;
+  margin: 20px 24px 4px 24px;
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -257,7 +257,7 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 .name{
-  margin-left: 24px;
+   margin: 4px 24px 20px 24px;
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
