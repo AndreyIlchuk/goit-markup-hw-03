@@ -4,9 +4,11 @@
   --accent-color: #ffffff;
 }
 body {
-  width: 1600px;
+  margin: 0;
+  padding: 0;
   font-family: Roboto, sans-serif;
 }
+
 ul {
   padding: 0;
   list-style: none;
@@ -15,23 +17,24 @@ ul {
   list-style: none;
 }
 .container {
-  width: 1170px;
-  margin-left: 215px;
-}
-.section {
-  margin: 94px 0;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /*Top line*/
-.top-line {
-  width: 1600px;
+.section-header {
+  width: 100%;
   background: #ffffff;
+  padding: 15px 0;
+}
+.top-line {
 }
 .header-container {
+  align-items: center;
   display: flex;
 }
 .top-line-link {
-  margin: 24px 93px 25px 215px;
+  margin-right: 93px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -47,8 +50,6 @@ ul {
 }
 
 .top-link {
-  margin-top: 32px;
-  margin-left: 93px;
   display: flex;
 }
 .link1:hover {
@@ -101,7 +102,8 @@ ul {
   color: #2196f3;
 }
 .mail-link {
-  margin: 32px 50px 32px 331px;
+  margin-right: 50px;
+  margin-left: 331px;
   font-size: 14px;
   color: #757575;
   text-decoration: none;
@@ -132,9 +134,14 @@ ul {
 /*Title-etions*/
 
 .header-title {
-  width: 1600px;
-  padding: 200px 452px 280px 452px;
+  width: 100%;
   background: #2f303a;
+  padding: 200px 200px 210px 200px;
+}
+.title-container {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
 }
 .text {
   font-family: Roboto;
@@ -151,8 +158,6 @@ ul {
 
 .button {
   padding: 10px 32px;
-  margin-top: 40px;
-  margin-left: 250px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -165,6 +170,9 @@ ul {
   color: #ffffff;
 }
 /*peculiarities-seсtion*/
+.section {
+  padding: 94px 215px;
+}
 .section-peculiarities {
   display: flex;
 }
@@ -211,7 +219,6 @@ ul {
   color: #212121;
 }
 .feature4 {
-  margin-right: 30px;
 }
 .title-peculiarities-4 {
   font-family: Roboto;
@@ -269,8 +276,7 @@ ul {
   display: flex;
 }
 .title-what-are-we-doing {
-  margin-left: 398px;
-  margin-bottom: 50px;
+  text-align: center;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -295,12 +301,11 @@ ul {
   display: flex;
 }
 .our-team {
-  width: 1600px;
+  text-align: center;
+  padding: 94px 215px;
   background: #f5f4fa;
 }
 .title-our-team {
-  margin-left: 688px;
-  margin-bottom: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -362,15 +367,12 @@ ul {
 }
 /*section-footer*/
 .footer-title {
-  width: 1600;
-  padding-top: 60px;
+  width: 100%;
+  padding: 60px 215px;
   background-color: black;
 }
 
 .footer-text {
-  padding-bottom: 60px;
-  margin-top: 20px;
-  margin-left: 215px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -381,7 +383,6 @@ ul {
   color: #ffffff;
 }
 .footer-link {
-  margin: 60px 0 20px 215px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -393,7 +394,6 @@ ul {
 }
 
 .link {
-  padding: 6px 0 9px 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
