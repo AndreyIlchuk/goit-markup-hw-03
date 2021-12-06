@@ -25,7 +25,7 @@ ul {
 .section-header {
   width: 100%;
   background: #ffffff;
-  padding: 15px 110px;
+  padding: 15px 0;
 }
 .top-line {
 }
@@ -136,7 +136,7 @@ ul {
 .header-title {
   width: 100%;
   background: #2f303a;
-  padding: 200px 110px 210px 110px;
+  padding: 200px 0 210px 0;
 }
 .title-container {
   width: 1200px;
@@ -171,7 +171,9 @@ ul {
 }
 /*peculiarities-seсtion*/
 .section {
-  padding: 94px 110px;
+  width: 1200px;
+  padding: 94px 0;
+  margin: 0 auto;
 }
 .section-peculiarities {
   display: flex;
@@ -302,7 +304,7 @@ ul {
 }
 .our-team {
   text-align: center;
-  padding: 94px 110px;
+  padding: 94px 0;
   background: #f5f4fa;
 }
 .title-our-team {
