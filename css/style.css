@@ -25,7 +25,7 @@ ul {
 .section-header {
   width: 100%;
   background: #ffffff;
-  padding: 15px 0;
+  padding: 15px 110px;
 }
 .top-line {
 }
@@ -136,7 +136,7 @@ ul {
 .header-title {
   width: 100%;
   background: #2f303a;
-  padding: 200px 200px 210px 200px;
+  padding: 200px 110px 210px 110px;
 }
 .title-container {
   width: 1200px;
@@ -171,7 +171,7 @@ ul {
 }
 /*peculiarities-seсtion*/
 .section {
-  padding: 94px 215px;
+  padding: 94px 110px;
 }
 .section-peculiarities {
   display: flex;
@@ -302,7 +302,7 @@ ul {
 }
 .our-team {
   text-align: center;
-  padding: 94px 215px;
+  padding: 94px 110px;
   background: #f5f4fa;
 }
 .title-our-team {
@@ -368,7 +368,7 @@ ul {
 /*section-footer*/
 .footer-title {
   width: 100%;
-  padding: 60px 215px;
+  padding: 60px 0;
   background-color: black;
 }
 
@@ -420,4 +420,3 @@ ul {
 .footer-tel-link:hover {
   color: #2196f3;
 }
-a
