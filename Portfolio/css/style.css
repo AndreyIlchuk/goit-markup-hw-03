@@ -2,7 +2,8 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #ffffff;}
+  --accent-color: #ffffff;
+}
 body {
   margin: 0;
   padding: 0;
