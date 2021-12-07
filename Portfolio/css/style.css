@@ -2,22 +2,33 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #ffffff;
-}
+  --accent-color: #ffffff;}
 body {
-  width: 1600px;
+  margin: 0;
+  padding: 0;
   font-family: Roboto, sans-serif;
 }
+ul {
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 /*top-line*/
-.top-line {
+.section-header {
+  width: 100%;
   background: #ffffff;
+  padding: 15px 0;
+  border: 1px solid #ececec;
 }
 .header-container {
+  align-items: center;
   display: flex;
 }
 
 .top-line-link {
-  margin: 24px 93px 25px 215px;
+  margin-right: 93px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -44,9 +55,10 @@ ul {
   color: #2196f3;
 }
 .top-link {
-  margin-top: 32px;
-  margin-left: 93px;
   display: flex;
+}
+.link1:hover {
+  color: #2196f3;
 }
 .link1 {
   margin-right: 50px;
@@ -59,6 +71,9 @@ ul {
   text-decoration: none;
   color: #212121;
 }
+.link2:hover {
+  color: #2196f3;
+}
 .link2 {
   margin-right: 50px;
   font-family: Roboto;
@@ -69,6 +84,9 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
+}
+.link3:hover {
+  color: #2196f3;
 }
 .link3 {
   font-family: Roboto;
@@ -85,6 +103,9 @@ ul {
   align-items: center;
   justify-content: center;
 }
+.header-mail-link:hover {
+  color: #2196f3;
+}
 .header-mail-link {
   margin: 32px 50px 32px 331px;
   font-family: Roboto;
@@ -95,6 +116,9 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
+}
+.header-tel-link:hover {
+  color: #2196f3;
 }
 .header-tel-link {
   font-family: Roboto;
@@ -107,80 +131,109 @@ ul {
   color: #757575;
 }
 /*Portfolio*/
+.section {
+  width: 1200px;
+  padding: 94px 0;
+  margin: 0 auto;
+}
 
 .filters {
+  display: flex;
+}
+.filters-portfolio {
+  margin-left: 280px;
 }
 .button {
+  padding: 6px 22px;
+  margin-right: 8px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   background: #f5f4fa;
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border-color: #f5f4fa;
 }
+
 .button:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
-
+.portfolio-img {
+  display: flex;
+  flex-wrap: wrap;
+}
 .container1 {
+  margin-top: 34px;
+  margin-right: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container2 {
+  margin-top: 34px;
+  margin-right: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container3 {
+  margin-top: 34px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container4 {
+  margin-top: 30px;
+  margin-right: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container5 {
+  margin-top: 30px;
+  margin-right: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container6 {
+  margin-top: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container7 {
+  margin-top: 30px;
+  margin-right: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container8 {
+  margin-top: 30px;
+  margin-right: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
 .container9 {
+  margin-top: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 .title-container {
+  margin: 20px 24px 4px 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -190,6 +243,7 @@ ul {
   color: #212121;
 }
 .name {
+  margin: 4px 24px 20px 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -202,7 +256,9 @@ ul {
 /*footer*/
 
 .footer {
-  background: #2f303a;
+  width: 100%;
+  padding: 60px 0;
+  background-color: black;
 }
 .footer-link {
   color: #ffffff;
@@ -238,6 +294,9 @@ ul {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
+.mail-link:hover {
+  color: #2196f3;
+}
 .tel-link {
   font-family: Roboto;
   font-style: normal;
@@ -247,4 +306,7 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+.tel-link:hover {
+  color: #2196f3;
 }
