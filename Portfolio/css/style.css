@@ -16,6 +16,9 @@ ul {
   width: 1200px;
   margin: 0 auto;
 }
+button {
+  border: none;
+}
 /*top-line*/
 .section-header {
   width: 100%;
