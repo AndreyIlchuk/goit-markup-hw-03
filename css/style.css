@@ -166,6 +166,7 @@ ul {
 }
 
 .button {
+  margin-top: 30px;
   padding: 10px 32px;
   font-family: Roboto;
   font-style: normal;
