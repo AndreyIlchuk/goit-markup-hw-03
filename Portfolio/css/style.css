@@ -136,14 +136,15 @@ ul {
 /*Portfolio*/
 
 .section {
-  width: 1200px;
   padding: 94px 0;
+}
+.conteiner {
+  width: 1200px;
   margin: 0 auto;
 }
-.conteine {
-}
+
 .filters-portfolio {
-  margin-left: 280px;
+  margin-left: 495px;
   margin-bottom: 50px;
 }
 .filters {
@@ -239,6 +240,7 @@ ul {
   box-sizing: border-box;
 }
 .title {
+  padding: 15px 15px;
 }
 .title-container {
   margin: 20px 24px 4px 24px;
