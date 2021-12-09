@@ -11,9 +11,7 @@ body {
 ul {
   padding: 0;
 }
-.container {
-  width: 1200px;
-  margin: 0 auto;
+
 }
 button {
   border: none;
@@ -138,17 +136,19 @@ ul {
 .section {
   padding: 94px 0;
 }
-.conteiner {
+.container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  
 }
 
 .filters-portfolio {
-  margin-left: 495px;
   margin-bottom: 50px;
 }
 .filters {
   display: flex;
+  justify-content: center;
 }
 .button {
   padding: 6px 22px;
@@ -240,10 +240,9 @@ ul {
   box-sizing: border-box;
 }
 .title {
-  padding: 15px 15px;
+  padding: 20px 24px;
 }
 .title-container {
-  margin: 20px 24px 4px 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -253,7 +252,6 @@ ul {
   color: #212121;
 }
 .name {
-  margin: 4px 24px 20px 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
