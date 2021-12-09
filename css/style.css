@@ -429,6 +429,7 @@ ul {
 }
 
 .link {
+  margin-top: 9px o 9px 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -439,7 +440,7 @@ ul {
 }
 
 .footer-tel-link {
-  margin-top: 9px;
+  margin-top: 9px o 9px 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
