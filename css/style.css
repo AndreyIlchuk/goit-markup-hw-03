@@ -284,7 +284,10 @@ a {
   padding-bottom: 30px;
 }
 .our-team {
+  width: 1200px;
+  margin: 0 auto;
   text-align: center;
+  padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
 }
@@ -352,14 +355,15 @@ a {
   color: #757575;
 }
 /*section-footer*/
-.footer-container {
-  width: 1200px;
-  margin: 0 auto;
-}
 .footer-title {
   width: 100%;
   padding: 60px 0;
   background-color: black;
+}
+
+.footer-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-text {
@@ -400,7 +404,7 @@ a {
 }
 
 .footer-tel-link {
-  padding-top: 9px o 9px 0;
+  margin: 9px o 9px 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
