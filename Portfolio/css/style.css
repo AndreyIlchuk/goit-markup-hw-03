@@ -14,8 +14,11 @@ body {
 }
 ul {
   padding: 0;
+  list-style: none;
 }
-
+a {
+  text-decoration: none;
+}
 button {
   border: none;
 }
@@ -48,9 +51,7 @@ button {
   color: #000;
   text-decoration: none;
 }
-ul {
-  list-style: none;
-}
+
 .list {
   list-style: none;
 }
