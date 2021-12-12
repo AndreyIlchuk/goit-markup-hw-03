@@ -24,6 +24,9 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
 }
 
 /*Top line*/
@@ -124,7 +127,7 @@ a {
 }
 /*Title-etions*/
 
-.hero-title {
+.header-title {
   width: 100%;
   background: #2f303a;
   padding: 200px 0 200px 0;
@@ -245,7 +248,7 @@ a {
   color: #757575;
 }
 /*what are we doing*/
-.container {
+.section-we-do {
   padding-bottom: 94px;
 }
 .what-are-we-doing-img {
@@ -284,6 +287,7 @@ a {
   padding-bottom: 30px;
 }
 .our-team {
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   padding-top: 94px;
@@ -291,8 +295,7 @@ a {
   background: #f5f4fa;
 }
 .title-our-team {
-  margin: 0;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
